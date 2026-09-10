@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #3B5CA3;
+    font-family: "Press Start 2P", system-ui;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 30px;
+    
+    
+}
+
+h1{
+    text-align: center;
+    color:#FFDE00;
+    font-size: 120px;
+    margin-top: 100px;
+}
+
+.botao{
+    background-color:#70B45C;
+    width:200px ;
+    height:50px ;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 30px;
+    margin-top: 80px;
+    
+    
+}
+
+.imgjogador{
+    width: 400px;
+    height: 200px;
+    
+}
+
+.imgvilao{
+    width: 400px;
+    height: 200px;
+}
+
+.coisas{
+    display: flex;
+    justify-content: space-between;
+}
