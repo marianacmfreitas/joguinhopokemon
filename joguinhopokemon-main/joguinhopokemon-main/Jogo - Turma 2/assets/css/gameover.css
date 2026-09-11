@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/cenario.png);
+    font-family: "Press Start 2P", system-ui;
+    border: 2px solid black;
+    width: 95%;
+    height: 600px;
+    margin: 30px auto;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    font-size: 100px;
+    margin-top:100px;
+    text-shadow: 8px 8px 32px yellow;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.botao{
+    background-color:#70B45C;
+    width:200px;
+    height:50px;
+    border-radius:20px;
+    border:2px solid black;
+    font-size:30px;
+    margin-top:100px;
+    transition: 0.3s;
+    transition: 0.3s;
+}
+
+.botao:hover{
+    transform: translateY(-8px) scale(1.05);
+    box-shadow: 0 8px 0 #3d6932;
+}
+
+.botaoinicio{
+    display: flex;
+    justify-content: center;
+}
+
+h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    text-shadow: 8px 8px 32px black;
+}
